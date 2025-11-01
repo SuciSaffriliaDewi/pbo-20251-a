@@ -5,7 +5,7 @@ namespace App\Math;
 class luasLingkaran {
 
       public const phi = 3.14;
-      public int $jari;
+      protected int $jari;
 
       public function __construct($isijari = 1) {
             $this->jari = $isijari; //10
